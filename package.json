@@ -1,0 +1,23 @@
+{
+  "name": "alexbinary.terminal",
+  "description": "Terminal display helper 📺",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/alexbinary/terminal.git",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "testw": "mocha -w"
+  },
+  "dependencies": {
+    "ansi-escapes": "^1.4.0"
+  },
+  "devDependencies": {
+    "alexbinary.mock-process": "https://github.com/alexbinary/mock-process.git",
+    "alexbinary.mock-stdout": "https://github.com/alexbinary/mock-stdout.git",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
